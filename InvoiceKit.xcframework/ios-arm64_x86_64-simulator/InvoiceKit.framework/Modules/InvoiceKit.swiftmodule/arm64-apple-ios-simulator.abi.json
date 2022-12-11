@@ -1,0 +1,964 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "InvoiceKit"
+      },
+      {
+        "kind": "Import",
+        "name": "PDFKit",
+        "printedName": "PDFKit",
+        "declKind": "Import",
+        "moduleName": "InvoiceKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InvoiceRowItem",
+        "printedName": "InvoiceRowItem",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sno:remarks:quantity:rate:total:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InvoiceRowItem",
+                "printedName": "InvoiceKit.InvoiceRowItem",
+                "usr": "c:@M@InvoiceKit@objc(cs)InvoiceRowItem"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@InvoiceKit@objc(cs)InvoiceRowItem(im)initWithSno:remarks:quantity:rate:total:",
+            "mangledName": "$s10InvoiceKit0A7RowItemC3sno7remarks8quantity4rate5totalACSS_S4Stcfc",
+            "moduleName": "InvoiceKit",
+            "objc_name": "initWithSno:remarks:quantity:rate:total:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InvoiceRowItem",
+                "printedName": "InvoiceKit.InvoiceRowItem",
+                "usr": "c:@M@InvoiceKit@objc(cs)InvoiceRowItem"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@InvoiceKit@objc(cs)InvoiceRowItem(im)init",
+            "mangledName": "$s10InvoiceKit0A7RowItemCACycfc",
+            "moduleName": "InvoiceKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@InvoiceKit@objc(cs)InvoiceRowItem",
+        "mangledName": "$s10InvoiceKit0A7RowItemC",
+        "moduleName": "InvoiceKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InvoiceOrder",
+        "printedName": "InvoiceOrder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(customerName:orderId:date:totalAmount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InvoiceOrder",
+                "printedName": "InvoiceKit.InvoiceOrder",
+                "usr": "c:@M@InvoiceKit@objc(cs)InvoiceOrder"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@InvoiceKit@objc(cs)InvoiceOrder(im)initWithCustomerName:orderId:date:totalAmount:",
+            "mangledName": "$s10InvoiceKit0A5OrderC12customerName7orderId4date11totalAmountACSS_S3Stcfc",
+            "moduleName": "InvoiceKit",
+            "objc_name": "initWithCustomerName:orderId:date:totalAmount:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InvoiceOrder",
+                "printedName": "InvoiceKit.InvoiceOrder",
+                "usr": "c:@M@InvoiceKit@objc(cs)InvoiceOrder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@InvoiceKit@objc(cs)InvoiceOrder(im)init",
+            "mangledName": "$s10InvoiceKit0A5OrderCACycfc",
+            "moduleName": "InvoiceKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@InvoiceKit@objc(cs)InvoiceOrder",
+        "mangledName": "$s10InvoiceKit0A5OrderC",
+        "moduleName": "InvoiceKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InvoiceMeta",
+        "printedName": "InvoiceMeta",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(businessName:businessEmail:businessContact:businessAddress:author:title:order:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InvoiceMeta",
+                "printedName": "InvoiceKit.InvoiceMeta",
+                "usr": "c:@M@InvoiceKit@objc(cs)InvoiceMeta"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InvoiceOrder",
+                "printedName": "InvoiceKit.InvoiceOrder",
+                "usr": "c:@M@InvoiceKit@objc(cs)InvoiceOrder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@InvoiceKit@objc(cs)InvoiceMeta(im)initWithBusinessName:businessEmail:businessContact:businessAddress:author:title:order:",
+            "mangledName": "$s10InvoiceKit0A4MetaC12businessName0D5Email0D7Contact0D7Address6author5title5orderACSS_S5SAA0A5OrderCtcfc",
+            "moduleName": "InvoiceKit",
+            "objc_name": "initWithBusinessName:businessEmail:businessContact:businessAddress:author:title:order:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InvoiceMeta",
+                "printedName": "InvoiceKit.InvoiceMeta",
+                "usr": "c:@M@InvoiceKit@objc(cs)InvoiceMeta"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@InvoiceKit@objc(cs)InvoiceMeta(im)init",
+            "mangledName": "$s10InvoiceKit0A4MetaCACycfc",
+            "moduleName": "InvoiceKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@InvoiceKit@objc(cs)InvoiceMeta",
+        "mangledName": "$s10InvoiceKit0A4MetaC",
+        "moduleName": "InvoiceKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PDFInvoice",
+        "printedName": "PDFInvoice",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rowItems",
+            "printedName": "rowItems",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[InvoiceKit.InvoiceRowItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InvoiceRowItem",
+                    "printedName": "InvoiceKit.InvoiceRowItem",
+                    "usr": "c:@M@InvoiceKit@objc(cs)InvoiceRowItem"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@InvoiceKit@objc(cs)PDFInvoice(py)rowItems",
+            "mangledName": "$s10InvoiceKit10PDFInvoiceC8rowItemsSayAA0A7RowItemCGvp",
+            "moduleName": "InvoiceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[InvoiceKit.InvoiceRowItem]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InvoiceRowItem",
+                        "printedName": "InvoiceKit.InvoiceRowItem",
+                        "usr": "c:@M@InvoiceKit@objc(cs)InvoiceRowItem"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@InvoiceKit@objc(cs)PDFInvoice(im)rowItems",
+                "mangledName": "$s10InvoiceKit10PDFInvoiceC8rowItemsSayAA0A7RowItemCGvg",
+                "moduleName": "InvoiceKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[InvoiceKit.InvoiceRowItem]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InvoiceRowItem",
+                        "printedName": "InvoiceKit.InvoiceRowItem",
+                        "usr": "c:@M@InvoiceKit@objc(cs)InvoiceRowItem"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@InvoiceKit@objc(cs)PDFInvoice(im)setRowItems:",
+                "mangledName": "$s10InvoiceKit10PDFInvoiceC8rowItemsSayAA0A7RowItemCGvs",
+                "moduleName": "InvoiceKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10InvoiceKit10PDFInvoiceC8rowItemsSayAA0A7RowItemCGvM",
+                "mangledName": "$s10InvoiceKit10PDFInvoiceC8rowItemsSayAA0A7RowItemCGvM",
+                "moduleName": "InvoiceKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "metaInfo",
+            "printedName": "metaInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InvoiceMeta",
+                "printedName": "InvoiceKit.InvoiceMeta",
+                "usr": "c:@M@InvoiceKit@objc(cs)InvoiceMeta"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@InvoiceKit@objc(cs)PDFInvoice(py)metaInfo",
+            "mangledName": "$s10InvoiceKit10PDFInvoiceC8metaInfoAA0A4MetaCvp",
+            "moduleName": "InvoiceKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InvoiceMeta",
+                    "printedName": "InvoiceKit.InvoiceMeta",
+                    "usr": "c:@M@InvoiceKit@objc(cs)InvoiceMeta"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@InvoiceKit@objc(cs)PDFInvoice(im)metaInfo",
+                "mangledName": "$s10InvoiceKit10PDFInvoiceC8metaInfoAA0A4MetaCvg",
+                "moduleName": "InvoiceKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InvoiceMeta",
+                    "printedName": "InvoiceKit.InvoiceMeta",
+                    "usr": "c:@M@InvoiceKit@objc(cs)InvoiceMeta"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@InvoiceKit@objc(cs)PDFInvoice(im)setMetaInfo:",
+                "mangledName": "$s10InvoiceKit10PDFInvoiceC8metaInfoAA0A4MetaCvs",
+                "moduleName": "InvoiceKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10InvoiceKit10PDFInvoiceC8metaInfoAA0A4MetaCvM",
+                "mangledName": "$s10InvoiceKit10PDFInvoiceC8metaInfoAA0A4MetaCvM",
+                "moduleName": "InvoiceKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rowItems:metaInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PDFInvoice",
+                "printedName": "InvoiceKit.PDFInvoice",
+                "usr": "c:@M@InvoiceKit@objc(cs)PDFInvoice"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[InvoiceKit.InvoiceRowItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InvoiceRowItem",
+                    "printedName": "InvoiceKit.InvoiceRowItem",
+                    "usr": "c:@M@InvoiceKit@objc(cs)InvoiceRowItem"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InvoiceMeta",
+                "printedName": "InvoiceKit.InvoiceMeta",
+                "usr": "c:@M@InvoiceKit@objc(cs)InvoiceMeta"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@InvoiceKit@objc(cs)PDFInvoice(im)initWithRowItems:metaInfo:",
+            "mangledName": "$s10InvoiceKit10PDFInvoiceC8rowItems8metaInfoACSayAA0A7RowItemCG_AA0A4MetaCtcfc",
+            "moduleName": "InvoiceKit",
+            "objc_name": "initWithRowItems:metaInfo:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "createInvoice",
+            "printedName": "createInvoice()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@InvoiceKit@objc(cs)PDFInvoice(im)createInvoice",
+            "mangledName": "$s10InvoiceKit10PDFInvoiceC06createA010Foundation4DataVyF",
+            "moduleName": "InvoiceKit",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PDFInvoice",
+                "printedName": "InvoiceKit.PDFInvoice",
+                "usr": "c:@M@InvoiceKit@objc(cs)PDFInvoice"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@InvoiceKit@objc(cs)PDFInvoice(im)init",
+            "mangledName": "$s10InvoiceKit10PDFInvoiceCACycfc",
+            "moduleName": "InvoiceKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@InvoiceKit@objc(cs)PDFInvoice",
+        "mangledName": "$s10InvoiceKit10PDFInvoiceC",
+        "moduleName": "InvoiceKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InvoiceKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/prajeetshrestha\/Documents\/swift-practice\/packages\/InvoiceKit\/InvoiceKit\/PDFInvoice.swift",
+      "kind": "StringLiteral",
+      "offset": 47,
+      "length": 14,
+      "value": "\"InvoiceKit.InvoiceRowItem\""
+    },
+    {
+      "filePath": "\/Users\/prajeetshrestha\/Documents\/swift-practice\/packages\/InvoiceKit\/InvoiceKit\/PDFInvoice.swift",
+      "kind": "StringLiteral",
+      "offset": 543,
+      "length": 12,
+      "value": "\"InvoiceKit.InvoiceOrder\""
+    },
+    {
+      "filePath": "\/Users\/prajeetshrestha\/Documents\/swift-practice\/packages\/InvoiceKit\/InvoiceKit\/PDFInvoice.swift",
+      "kind": "StringLiteral",
+      "offset": 933,
+      "length": 11,
+      "value": "\"InvoiceKit.InvoiceMeta\""
+    },
+    {
+      "filePath": "\/Users\/prajeetshrestha\/Documents\/swift-practice\/packages\/InvoiceKit\/InvoiceKit\/PDFInvoice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1808,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/prajeetshrestha\/Documents\/swift-practice\/packages\/InvoiceKit\/InvoiceKit\/PDFInvoice.swift",
+      "kind": "FloatLiteral",
+      "offset": 1812,
+      "length": 4,
+      "value": "72.0"
+    },
+    {
+      "filePath": "\/Users\/prajeetshrestha\/Documents\/swift-practice\/packages\/InvoiceKit\/InvoiceKit\/PDFInvoice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1938,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/prajeetshrestha\/Documents\/swift-practice\/packages\/InvoiceKit\/InvoiceKit\/PDFInvoice.swift",
+      "kind": "FloatLiteral",
+      "offset": 1943,
+      "length": 4,
+      "value": "72.0"
+    },
+    {
+      "filePath": "\/Users\/prajeetshrestha\/Documents\/swift-practice\/packages\/InvoiceKit\/InvoiceKit\/PDFInvoice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1984,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/prajeetshrestha\/Documents\/swift-practice\/packages\/InvoiceKit\/InvoiceKit\/PDFInvoice.swift",
+      "kind": "FloatLiteral",
+      "offset": 2027,
+      "length": 5,
+      "value": "150.0"
+    },
+    {
+      "filePath": "\/Users\/prajeetshrestha\/Documents\/swift-practice\/packages\/InvoiceKit\/InvoiceKit\/PDFInvoice.swift",
+      "kind": "FloatLiteral",
+      "offset": 2075,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/prajeetshrestha\/Documents\/swift-practice\/packages\/InvoiceKit\/InvoiceKit\/PDFInvoice.swift",
+      "kind": "FloatLiteral",
+      "offset": 2162,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/prajeetshrestha\/Documents\/swift-practice\/packages\/InvoiceKit\/InvoiceKit\/PDFInvoice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2208,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/prajeetshrestha\/Documents\/swift-practice\/packages\/InvoiceKit\/InvoiceKit\/PDFInvoice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2248,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/prajeetshrestha\/Documents\/swift-practice\/packages\/InvoiceKit\/InvoiceKit\/PDFInvoice.swift",
+      "kind": "FloatLiteral",
+      "offset": 10395,
+      "length": 4,
+      "value": "14.0"
+    },
+    {
+      "filePath": "\/Users\/prajeetshrestha\/Documents\/swift-practice\/packages\/InvoiceKit\/InvoiceKit\/PDFInvoice.swift",
+      "kind": "StringLiteral",
+      "offset": 1729,
+      "length": 10,
+      "value": "\"InvoiceKit.PDFInvoice\""
+    }
+  ]
+}

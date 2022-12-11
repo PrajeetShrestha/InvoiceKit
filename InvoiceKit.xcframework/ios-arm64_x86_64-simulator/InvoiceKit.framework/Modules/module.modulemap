@@ -1,0 +1,11 @@
+framework module InvoiceKit {
+  umbrella header "InvoiceKit.h"
+
+  export *
+  module * { export * }
+}
+
+module InvoiceKit.Swift {
+  header "InvoiceKit-Swift.h"
+  requires objc
+}
