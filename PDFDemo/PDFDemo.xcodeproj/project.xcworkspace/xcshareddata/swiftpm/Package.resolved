@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "invoicekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/PrajeetShrestha/InvoiceKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "16be7517cfed8b554a33eb94e0d3dec38146eefa"
+      }
+    }
+  ],
+  "version" : 2
+}

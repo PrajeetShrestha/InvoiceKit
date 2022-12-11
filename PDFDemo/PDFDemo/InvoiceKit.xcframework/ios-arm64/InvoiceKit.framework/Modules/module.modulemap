@@ -1,0 +1,6 @@
+framework module InvoiceKit {
+  umbrella header "InvoiceKit.h"
+
+  export *
+  module * { export * }
+}

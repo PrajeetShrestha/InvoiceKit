@@ -1,0 +1,11 @@
+framework module PDFInvoiceSDK {
+  umbrella header "PDFInvoiceSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module PDFInvoiceSDK.Swift {
+  header "PDFInvoiceSDK-Swift.h"
+  requires objc
+}
